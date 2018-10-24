@@ -234,7 +234,7 @@
                 android:layout_weight="1"
                 android:padding="5dp"
                 android:scaleType="centerInside"
-                android:src="@drawable/classmate2" />
+                android:src="@drawable/classmate" />
 
         </LinearLayout>
 
@@ -335,17 +335,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:padding="5dp"
-            android:text="Foodies"
-            android:textSize="28sp"
-            android:textColor="@color/colorPrimaryLight"
-            android:gravity="center"
-            android:layout_marginBottom="14dp"
-        />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

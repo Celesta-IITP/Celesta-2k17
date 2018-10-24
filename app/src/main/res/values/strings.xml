@@ -5,11 +5,12 @@
     <string name="my_profile">My Profile</string>
     <string name="aboutus">Celesta is the annual Techno-Management fest of IIT Patna. A journey that began years ago is back again, with a fantabulous never seen before Remastered version.\n\nIts main motive is to promote technical and management skills and enthusiasm amongst the young and aspiring bright minds of our nation. It\'s a platform, a stage of grandeur where everyone has the chance to showcase their ideas, technical skills and creativity which hosts a plethora of guest lectures by dignified intellectuals and inspiring individuals who have excelled in their fields.\n\nWhy should you attend Celesta?\nTo have a "Celestial" experience of course!\n\nMetal clashing against metal, minds battling to solve the most complicated of treasure hunts, an opportunity to pitch your idea that never made it through your fear, to finally bring all those hours of playing games to use for having a shot at winning the most exciting of prizes, Celesta Remastered has it all!</string>
     <string name="events">Events</string>
-    <string name="charity">Charitiy</string>
+    <string name="charity">Charity</string>
     <string name="lectures">Lectures</string>
     <string name="url_eventinfo">http://celesta.org.in/apiLe/app_regEveList</string>
     <string name="workshops">Workshops</string>
     <string name="schedule">Schedule</string>
+    <string name="workshopregisterlink">https://www.thecollegefever.com/events/celesta-2018-yEYo3DFhwl</string>
     <string name="PasswordMismatch">Password Mismatch</string>
     <string name="pronite">Pro Nite</string>
     <string name="team">Team</string>

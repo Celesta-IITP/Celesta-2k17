@@ -25,7 +25,6 @@ import in.org.celesta2k18.R;
 import android.widget.Toast;
 
 public class SignUpFragment extends AuthFragment{
-
     @BindViews(value = {R.id.email_input_edit,
             R.id.password_input_edit,
             R.id.confirm_password_edit})

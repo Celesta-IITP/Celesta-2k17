@@ -16,25 +16,27 @@
 
     <View
         android:id="@+id/logo"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
-        android:layout_marginTop="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_width="@dimen/logo_size"
-        android:layout_height="@dimen/logo_size"/>
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <android.support.design.widget.TextInputLayout
-        style="@style/Widget.TextInputLayout"
         android:id="@+id/email_input"
-        android:layout_marginTop="48dp"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
+        style="@style/Widget.TextInputLayout"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo">
+
         <android.support.design.widget.TextInputEditText
-            style="@style/Widget.TextEdit"
             android:id="@+id/email_input_edit"
+            style="@style/Widget.TextEdit"
             android:hint="@string/clst_id_hint"
             android:inputType="textPersonName" />
     </android.support.design.widget.TextInputLayout>
@@ -56,17 +58,19 @@
 
     <TextView
         android:id="@+id/forgot_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#FFF"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
         android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="20sp"
         android:text="@string/forgot_password"
-        app:layout_constraintTop_toBottomOf="@+id/password_input"
-        android:layout_marginTop="48dp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/caption"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_input"
+        app:layout_constraintVertical_bias="0.122" />
 
 
     <in.org.celesta2k18.activities.VerticalTextView
@@ -74,14 +78,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="@dimen/unfolded_size"
-        android:textAllCaps="true"
-        android:textStyle="bold"
-        android:textColor="@color/color_label"
         android:text="@string/log_in_label"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:textAllCaps="true"
+        android:textColor="@color/color_label"
+        android:textSize="@dimen/unfolded_size"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintVertical_bias="0.834" />
 </android.support.constraint.ConstraintLayout>

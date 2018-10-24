@@ -13,8 +13,11 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 import in.org.celesta2k18.R;
 import in.org.celesta2k18.adapters.WorkshopsRecyclerViewAdapter;
@@ -33,6 +36,7 @@ import static in.org.celesta2k18.activities.landwInfoActivity.EXTRA_VENUE;
 public class WorkshopsActivity extends AppCompatActivity implements WorkshopsRecyclerViewAdapter.ListCardClick {
 
     RecyclerView recyclerView;
+    TextView register;
     WorkshopsRecyclerViewAdapter workshopsRecyclerViewAdapter;
 
     @Override
@@ -40,7 +44,7 @@ public class WorkshopsActivity extends AppCompatActivity implements WorkshopsRec
         super.onCreate(savedInstanceState);
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         setContentView(R.layout.activity_workshops);
-
+        register = (TextView)findViewById(R.id.registerbutton);
         recyclerView = findViewById(R.id.rv_workshops);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -50,6 +54,15 @@ public class WorkshopsActivity extends AppCompatActivity implements WorkshopsRec
         android.support.v7.app.ActionBar bar = getSupportActionBar();
         assert bar != null;
         bar.setBackgroundDrawable(new ColorDrawable(ContextCompat.getColor(this, R.color.colorEvents)));
+
+        register.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Uri webpage = Uri.parse("https://www.thecollegefever.com/events/celesta-2018-yEYo3DFhwl");
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+                startActivity(intent);
+            }
+        });
 
         workshopsRecyclerViewAdapter = new WorkshopsRecyclerViewAdapter(getApplicationContext(), this,resources.getStringArray(R.array.array_workshop_topics), resources.getStringArray(R.array.array_workshop_headers),
                 resources.getStringArray(R.array.array_workshop_date),
