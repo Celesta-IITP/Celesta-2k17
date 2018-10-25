@@ -7,7 +7,7 @@ android {
         applicationId "in.org.celesta2k18"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 3
+        versionCode 4
         versionName "1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
