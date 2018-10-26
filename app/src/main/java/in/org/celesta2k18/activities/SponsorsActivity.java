@@ -32,7 +32,7 @@ public class SponsorsActivity extends AppCompatActivity {
         map.put(R.id.hacker_earth,"http://www.hackerearth.com/");
         map.put(R.id.coding_ninjas,"https://www.codingninjas.in/");
         map.put(R.id.ruban,"http://www.rubanpatliputrahospital.com/");
-        map.put(R.id.classmate,"http://classmatestationery.com/");
+        map.put(R.id.hospi,"http://classmatestationery.com/");
         map.put(R.id.zebronics,"https://zebronics.com/");
         map.put(R.id.radio_mirchi,"http://www.radiomirchi.com/");
         map.put(R.id.chicken,"http://broaster.com/");
@@ -52,7 +52,9 @@ public class SponsorsActivity extends AppCompatActivity {
         map.put(R.id.the_souled_store,"https://www.thesouledstore.com/");
         map.put(R.id.learn_code_online,"https://learncodeonline.in/");
         map.put(R.id.grabon,"https://www.grabon.in/");
-
+        map.put(R.id.pizzahut,"https://online.pizzahut.co.in/home");
+        map.put(R.id.opentalk,"https://opentalk.to/tag/Celesta2018/ht-a42ae94ac26fc98c");
+        map.put(R.id.hospi,"http://www.gargeehotels.com/");
         for(Map.Entry<Integer,String> pair: map.entrySet()){
             ImageView imageView = findViewById(pair.getKey());
             imageView.setOnClickListener(v -> customTabsIntent.launchUrl(SponsorsActivity.this,Uri.parse(pair.getValue())));

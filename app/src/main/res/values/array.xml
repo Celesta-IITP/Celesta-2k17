@@ -83,38 +83,31 @@
     <string-array name="array_workshop_headers">
         <item>Robotics and IoT</item>
         <item>Automobiles and IC Engines</item>
-        <item>Digital Marketing</item>
     </string-array>
 
     <string-array name="array_workshop_topics">
         <item>Robotics and IoT</item>
         <item>Automobiles and IC Engines</item>
-        <item>Digital Marketing</item>
     </string-array>
     <string-array name="array_workshop_organiser">
         <item>Technophilia</item>
         <item>Techtron Technologies</item>
-        <item>Click Perfect</item>
     </string-array>
     <string-array name="array_workshop_contacts">
-        <item>-1</item>
         <item>-1</item>
         <item>-1</item>
     </string-array>
     <string-array name="array_workshop_date">
         <item>3rd-4th November</item>
         <item>3rd-4th November</item>
-        <item>17th-18th November</item>
     </string-array>
 
     <string-array name="array_workshop_time">
         <item>-1</item>
         <item>-1</item>
-        <item>-1</item>
     </string-array>
 
     <string-array name="array_workshop_venue">
-        <item>IIT Patna</item>
         <item>IIT Patna</item>
         <item>IIT Patna</item>
     </string-array>
@@ -126,7 +119,6 @@
     <string-array name="array_workshop_intent">
         <item>http://www.kyrion.in/download/workshop/Robotics-and-IOT.pdf</item>
         <item>https://drive.google.com/file/d/1mHEnO4JYp2QLTLn0hVgMDNNZmJGcDLox/view?usp=sharing</item>
-        <item>https://www.slideshare.net/MohdshamsherKhan/digital-marketing-workshop-presentation-ppt-by-shamsher-khan</item>
     </string-array>
     <string-array name="array_workshop_intro">
         <item>-1</item>
@@ -136,7 +128,7 @@
     <string-array name="array_workshop_images">
         <item>@drawable/whataftercollege</item>
         <item>@drawable/whataftercollege</item>
-        <item>@drawable/whataftercollege</item>
+
     </string-array>
     <string-array name="array_workshop_description">
         <item>Prof at MIT and noble prize winner in physics.Prof at MIT and noble prize winner in physicsProf at MIT and noble prize winner in physics</item>
@@ -555,12 +547,12 @@
         <item>@drawable/techphoto</item>
         <item>@drawable/techsketch</item>
         <item>@drawable/grafi</item>
-        <item>@drawable/comingsoon</item>
+        <item>@drawable/herono</item>
     </integer-array>
 
     <string-array name="array_photography_organizers">
         <item>Priyansh Singh Rao \nVibhor Upadhyaya</item>
-        <item>Harshit Singh(FIFA)\nPranil(CSGO)\nAnshul Koshiyari(DOTA2)\nKshitij Jain(PUBG Mobile)</item>
+        <item>Harshit Singh\nPranil\nAnshul Koshiyari\nKshitij Jain</item>
         <item>Rakshit Maheshwari</item>
         <item>Rakshit Maheshwari</item>
         <item>Rakshit Maheshwari</item>
@@ -570,15 +562,15 @@
     <string-array name="array_photography_contacts">
         <item> - 9511593732\n- 7738923336</item>
         <item>- 7355674747\n- 6201169731\n- 8356975835\n- 9131604185</item>
-        <item>- 7355674747\n</item>
-        <item>- 7355674747\n</item>
-        <item>- 7355674747\n</item>
-        <item>- 7355674747\n</item>
+        <item>- 9939512017\n</item>
+        <item>- 9939512017\n</item>
+        <item>- 9939512017\n</item>
+        <item>- 9939512017\n</item>
     </string-array>
 
     <string-array name="array_photography_links">
         <item>Parliamentary Debate</item>
-        <item>FIFA-CSGO-DOTA2-PUBG Mobile</item>
+        <item>Lock N Load</item>
         <item>Tech Photography</item>
         <item>Tech Sketching</item>
         <item>Graffiti</item>
@@ -732,7 +724,7 @@
     <!--Expo Events-->
     <string-array name="array_expo_event_headers">
         <item>Exhibition</item>
-        <item>Engineers Conclave</item>
+        <item>Engineers\' Conclave</item>
     </string-array>
 
     <string-array name="array_expo_event_text">
@@ -751,7 +743,7 @@
     </string-array>
     <string-array name="array_expo_event_links">
         <item>Jigyasa</item>
-        <item>Engineers\' Conclave</item>
+        <item>Engineers Conclave</item>
     </string-array>
     <string-array name="array_expo_event_ruleLinks">
         <item>https://celesta.org.in/events.php?eveCat=2</item>
@@ -849,7 +841,7 @@
         <item>Flight to Future</item>
         <item>Roborace</item>
         <item>Line Follower</item>
-        <item>Robowars</item>
+        <item>Robowars (School)</item>
     </string-array>
 
     <string-array name="array_robotics_rule_links">
@@ -902,7 +894,7 @@
     </string-array>
 
     <string-array name="array_quizwiz_links">
-        <item>Electroexquisite</item>
+        <item>AstroParticle Voyage</item>
         <item>ElectroExquizite</item>
     </string-array>
 
@@ -917,13 +909,16 @@
         <item>IPL Auction</item>
         <item>Stockmart</item>
         <item>Pitch Your Idea</item>
+        <item>Six Thinking Hats</item>
     </string-array>
     <string-array name="array_management_event_text">
         <item>Ever thought what you would do if you got a chance to build your own IPL team. To use your knowledge of the ‘Big Game’ and your sixth sense to create the perfect team that goes on to lift the coveted Trophy. To use permutation and combination and make the best choice keeping in mind the huge investment that goes into putting together a winning team. To learn Strategizing, Resource management, Entrepreneurship, all at the same time in Fun-filled Cricketing event.</item>
         <item>Stockmart is a virtual stock exchange competition organised by Entrepreneurship Club. One of the most electrifying events of eclub where many users can buy and share virtual shares and experience all nuances of a real stock market. Stockmart gives you a chance to showcase your calculated risk taking skills to enhance on a virtual level. It is a 2 hour event where you can register with your email ids and be a part of the stimulating environment of Stockmart.</item>
         <item>To Be Updated</item>
+        <item>In this event participants have to look at decision from different points of view. Participants have to analyze a problem statement given on the spot and have to give solution to the problem depending on the emotion of the hat that they are wearing.\nIt will allow emotion and skepticism to be brought into what might normally be a purely rational process, and it will open up the opportunity for creativity within decision making.\nThis event will cultivate a sense of taking sounder and more resilient decisions than would otherwise be the case. It will help participants to avoid possible pitfalls before they have committed to a decision.\nFor more details see rules/instructions below</item>
     </string-array>
     <string-array name="array_management_event_rules">
+        <item>-1</item>
         <item>-1</item>
         <item>-1</item>
         <item>-1</item>
@@ -932,8 +927,10 @@
         <item>-1</item>
         <item>-1</item>
         <item>-1</item>
+        <item>-1</item>
     </string-array>
     <string-array name="array_management_event_date_time">
+        <item>-1</item>
         <item>-1</item>
         <item>-1</item>
         <item>-1</item>
@@ -942,26 +939,32 @@
         <item>@drawable/iplauction</item>
         <item>@drawable/stockmart1</item>
         <item>@drawable/pitching1</item>
+        <item>@drawable/sixthinking</item>
     </integer-array>
     <string-array name="array_management_organizers">
         <item>Niranjan\nSahil</item>
         <item>Vrushank Verma\nBadrinath</item>
         <item>Raghav Heda\nShristi</item>
+        <item>Ramakrishna\nShubhham Chouksey</item>
     </string-array>
     <string-array name="array_management_contacts">
         <item>- 8686179888\n- 9523264162</item>
         <item>- 8297809999\n- 9949477376</item>
         <item>- 9685552535\n- 8299844493</item>
+        <item>- 8985265942\n- 9479917417</item>
     </string-array>
     <string-array name="array_management_links">
         <item>IPL Auction</item>
         <item>Stockmart</item>
         <item>Pitch your Idea</item>
+        <item>Six Thinking Hats</item>>
+        <item></item>
     </string-array>
     <string-array name="array_management_rule_links">
         <item>https://drive.google.com/open?id=1YVpFv7HBTINKkpMhcSLcg-Rky6PhpX0f</item>
-        <item>https://celesta.org.in/event_.php?eveID=10503</item>
+        <item>https://celesta.org.in/event_.php?eveID=10502</item>
         <item>https://drive.google.com/file/d/17mjxknbrSUWRGnpz-HBpQFQsXgATHwbW/view</item>
+        <item>https://drive.google.com/file/d/1tEOwfYatV5zOkhQlLxBk1BR2tAXyWcKQ/view</item>
     </string-array>
     <!--Management events end -->
     <string-array name="array_team_names">

@@ -3,6 +3,7 @@ package in.org.celesta2k18.activities;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
@@ -77,7 +78,9 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(this, "Logged Out Successfully", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.menu_item_schedule:
-                    Toast.makeText(MainActivity.this, "Coming Soon!", Toast.LENGTH_SHORT).show();
+                    Uri webpage = Uri.parse("https://celesta.org.in/event/Celesta_Schedule.pdf");
+                    Intent intentschedule = new Intent(Intent.ACTION_VIEW, webpage);
+                    startActivity(intentschedule);
                     break;
                 case R.id.menu_item_lectures:
 //                    Toast.makeText(MainActivity.this, "Coming Soon!", Toast.LENGTH_SHORT).show();

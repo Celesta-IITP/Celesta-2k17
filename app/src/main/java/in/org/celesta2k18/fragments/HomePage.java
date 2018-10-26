@@ -106,7 +106,9 @@ public class HomePage extends android.support.v4.app.Fragment {
 
         scheduleLinearLayout = rootView.findViewById(R.id.schedule);
         scheduleLinearLayout.setOnClickListener(v -> {
-                comingSoonToast.show();
+            Uri webpage = Uri.parse("https://celesta.org.in/event/Celesta_Schedule.pdf");
+            Intent intentschedule = new Intent(Intent.ACTION_VIEW, webpage);
+            startActivity(intentschedule);
            });
 
          proniteLinearLayout = rootView.findViewById(R.id.pronites);
